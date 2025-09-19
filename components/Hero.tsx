@@ -14,12 +14,14 @@ export default function Hero() {
 
       <div className="hero-content">
         <TypewriterEffect />
-        <p>
-          Explore unique paintings and sketches crafted with passion, where every stroke tells a story.
-          My art transforms blank canvases into timeless masterpieces filled with life, color, and emotion.
-          From delicate pencil sketches to vibrant watercolor paintings and bold abstract creations,
-          each piece is designed to inspire, connect, and bring warmth to your space.
-        </p>
+       <p style={{ marginBottom: "6px" }}>
+  Explore unique paintings and sketches made with heart.
+  Every stroke tells a story—turning blank canvases into lively, colorful pieces.
+</p>
+<p style={{ marginTop: "0" }}>
+  From soft pencil work to bright watercolors and bold abstracts, each artwork is created to inspire, connect, and add warmth to your space.
+</p>
+
         <div className="cta-btns">
           <a href="#portfolio" className="cta-btn">View Collection</a>
           <a
