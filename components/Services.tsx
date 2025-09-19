@@ -6,38 +6,38 @@ export default function Services() {
   const services = [
     {
       variant: "1",
-      icon: "fas fa-paint-brush",
-      title: "Custom Paintings",
+      icon: "fas fa-feather-alt",
+      title: "Calligraphy",
       description: "Personalized artworks created just for you — portraits, landscapes, or abstract pieces to match your vision."
     },
     {
       variant: "2",
-      icon: "fas fa-pencil-alt",
-      title: "Sketch Commissions",
+      icon: "fas fa-user-secret",
+      title: "Faceless Portraits",
       description: "Detailed pencil and charcoal sketches, perfect for gifts, memories, or adding character to your space."
     },
     {
       variant: "3",
-      icon: "fas fa-image",
-      title: "Digital Illustrations",
+      icon: "fas fa-mountain",
+      title: "Landscape",
       description: "Modern digital artworks and illustrations for social media, branding, or personal collections."
     },
     {
       variant: "4",
-      icon: "fas fa-users",
-      title: "Workshops & Classes",
+      icon: "fas fa-infinity",
+      title: "Thread art",
       description: "Interactive sessions where I teach painting and sketching techniques to beginners and enthusiasts."
     },
     {
       variant: "5",
       icon: "fas fa-gift",
-      title: "Gift Art",
+      title: "Event Gifts",
       description: "Unique, handmade art pieces crafted as meaningful gifts for special occasions."
     },
     {
       variant: "6",
-      icon: "fas fa-book-open",
-      title: "Portfolio Projects",
+      icon: "fas fa-paint-brush",
+      title: "Painting",
       description: "Collaborations and commissioned projects for exhibitions, catalogues, and interior decoration."
     }
   ]
