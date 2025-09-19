@@ -413,7 +413,6 @@ header.scrolled {
     padding: 15px 10%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
-
 .logo {
   display: flex;
   align-items: center;
@@ -422,12 +421,17 @@ header.scrolled {
   color: var(--light);
   text-decoration: none;
 }
+
 .logo-img {
-  height: 32px;      /* ya jitna size chahiye */
-  width: auto;
+  height: 50px;          /* circle ka size */
+  width: 50px;
+  border-radius: 50%;    /* image ko circle banata hai */
+  object-fit: cover;     /* image ko circle ke andar fit karta hai */
   margin-right: 10px;
   display: block;
+  border: 2px solid var(--light); /* optional: circle ka border */
 }
+
 
 
 

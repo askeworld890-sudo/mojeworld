@@ -64,7 +64,7 @@ export default function Contact() {
               <div className="contact-icon"><i className="fas fa-phone-alt"></i></div>
               <div className="contact-text">
                 <h4>Phone</h4>
-                <p><a href="tel:+923167922418">+92 3167922418</a></p>
+                <p><a href="tel:+923337922410">+92 3337922410</a></p>
               </div>
             </div>
 
@@ -88,11 +88,12 @@ export default function Contact() {
 
           <h3>Follow Us</h3>
           <div className="social-links">
-            <a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com/artbymoj_" className="social-link"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-pinterest-p"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-twitter"></i></a>
-          </div>
+  <a href="https://www.tiktok.com/@artbymoj_?_r=1&_d=e1kc4ailek91dh&sec_uid=ms4wljabaaaadvxlyekhnaq3vxw9fhhg1rvos7uam-l525-lnvgspv7sbxegrd4bqijjclgajakt&share_author_id=6569850397774987270&sharer_language=en&source=h5_m&u_code=d0i5b24a057159&timestamp=1758288234&user_id=6569850397774987270&sec_user_id=ms4wljabaaaadvxlyekhnaq3vxw9fhhg1rvos7uam-l525-lnvgspv7sbxegrd4bqijjclgajakt&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7546582288286533396&share_link_id=42d51284-1e5d-4d42-94bb-9ea09ee2d2e6&share_app_id=1233&ugbiz_name=account&ug_btm=b8727%2cb7360&social_share_type=5&enable_checksum=1" className="social-link"><i className="fab fa-tiktok"></i></a>
+  <a href="https://instagram.com/artbymoj_" className="social-link"><i className="fab fa-instagram"></i></a>
+  <a href="https://pin.it/5ytk07S9m" className="social-link"><i className="fab fa-pinterest-p"></i></a>
+  <a href="https://x.com/MoezaAnam?t=zKzE9IuID76HA2BzNCHRpw&s=09" className="social-link"><i className="fab fa-twitter"></i></a>
+</div>
+
         </div>
 
         <div className="contact-form">

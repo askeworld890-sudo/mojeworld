@@ -23,12 +23,12 @@ export default function Hero() {
         <div className="cta-btns">
           <a href="#portfolio" className="cta-btn">View Collection</a>
           <a
-  href="https://wa.me/923001234567?text=Hi!%20I%20just%20visited%20your%20website%20and%20I%20want%20to%20book%20a%20consultation."
+  href="https://wa.me/923337922410?text=Hi!%20I%20just%20visited%20your%20website%20and%20I%20want%20to%20book%20a%20order."
   target="_blank"
   rel="noopener noreferrer"
   className="cta-btn secondary"
 >
-  Book Consultation
+  Book Order
 </a>
 
         </div>

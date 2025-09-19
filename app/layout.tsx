@@ -6,7 +6,7 @@ import WhatsAppButton from '@/components/WhatsAppButton'   // 👈 yahan import 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'moj._.world',
+  title: 'Aks_E_Moj',
   description: 'Art that Flows, Stories that Speak. Through the Oil Paintings',
   keywords: 'art, paintings, sketches, portraits, digital art, custom commissions',
   authors: [{ name: 'moj._.world' }],
@@ -33,7 +33,7 @@ export default function RootLayout({
         {children}
 
         {/* 👇 WhatsApp floating button yahan render hoga */}
-        <WhatsAppButton phone="923167922418" />
+        <WhatsAppButton phone="923337922410" />
       </body>
     </html>
   )
