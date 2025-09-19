@@ -205,8 +205,7 @@ document.querySelectorAll('a, button').forEach(el => {
 const heroHeading = document.querySelector('.hero h1');
 const originalText = heroHeading.innerHTML;
 const dynamicWords = ["art",
-  "Pencil Sketches",
-  "Watercolor Art",
+  
   "Digital Illustrations",
   "Portraits",
   "Abstract Art",
