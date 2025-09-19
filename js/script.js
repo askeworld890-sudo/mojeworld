@@ -204,7 +204,7 @@ document.querySelectorAll('a, button').forEach(el => {
 // Typewriter Effect for Hero Section
 const heroHeading = document.querySelector('.hero h1');
 const originalText = heroHeading.innerHTML;
-const dynamicWords = ["Oil Paintings",
+const dynamicWords = ["art",
   "Pencil Sketches",
   "Watercolor Art",
   "Digital Illustrations",
@@ -218,7 +218,7 @@ let typeSpeed = 200;
 
 function typeWriterEffect() {
     const currentWord = dynamicWords[wordIndex];
-    const currentText = originalText.replace('Oil Paintings', 
+    const currentText = originalText.replace('art', 
         `<span class="typewriter">${currentWord.substring(0, charIndex)}</span>`);
     
     heroHeading.innerHTML = currentText;

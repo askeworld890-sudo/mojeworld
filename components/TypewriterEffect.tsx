@@ -3,10 +3,10 @@
 import { useEffect, useState } from 'react'
 
 export default function TypewriterEffect() {
-  const [displayText, setDisplayText] = useState("Art that Flows, <span>Stories that Speak.</span> Through the Oil Paintings")
+  const [displayText, setDisplayText] = useState("Art that Flows, <span>Stories that Speak.</span> Through the art")
 
   const dynamicWords = [
-    "Oil Paintings",
+    "art",
     "Pencil Sketches",
     "Watercolor Art",
     "Arabic calligraphy",

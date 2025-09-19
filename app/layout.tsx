@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aks_E_Moj',
-  description: 'Art that Flows, Stories that Speak. Through the Oil Paintings',
+  description: 'Art that Flows, Stories that Speak. Through the art',
   keywords: 'art, paintings, sketches, portraits, digital art, custom commissions',
   authors: [{ name: 'moj._.world' }],
 }

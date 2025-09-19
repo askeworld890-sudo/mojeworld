@@ -8,37 +8,37 @@ export default function Services() {
       variant: "1",
       icon: "fas fa-feather-alt",
       title: "Calligraphy",
-      description: "Personalized artworks created just for you — portraits, landscapes, or abstract pieces to match your vision."
+      description: "Experience the divine harmony of scripture and artistry with our bespoke Arabic calligraphy. Each piece is meticulously crafted to bring timeless elegance and spiritual grace into your space."
     },
     {
       variant: "2",
       icon: "fas fa-user-secret",
       title: "Faceless Portraits",
-      description: "Detailed pencil and charcoal sketches, perfect for gifts, memories, or adding character to your space."
+      description: "Capture the essence of a cherished memory with a modern, minimalist faceless portrait. We focus on form and emotion to create a profoundly personal and stylish piece of art."
     },
     {
       variant: "3",
       icon: "fas fa-mountain",
       title: "Landscape",
-      description: "Modern digital artworks and illustrations for social media, branding, or personal collections."
+      description: "Journey to breathtaking serene sceneries through our collection of landscape paintings. Own a piece of the world's beauty, captured on canvas with passion and intricate detail."
     },
     {
       variant: "4",
       icon: "fas fa-infinity",
       title: "Thread art",
-      description: "Interactive sessions where I teach painting and sketching techniques to beginners and enthusiasts."
+      description: "Discover art that engages the senses with unique texture and depth. Our custom thread art weaves traditional craft into sophisticated masterpieces for your walls."
     },
     {
       variant: "5",
       icon: "fas fa-gift",
       title: "Event Gifts",
-      description: "Unique, handmade art pieces crafted as meaningful gifts for special occasions."
+      description: "Give a gift that transcends the ordinary and lasts a lifetime for any special occasion. Commission a bespoke work of art to celebrate weddings, anniversaries, and milestones in a truly memorable way"
     },
     {
       variant: "6",
       icon: "fas fa-paint-brush",
       title: "Painting",
-      description: "Collaborations and commissioned projects for exhibitions, catalogues, and interior decoration."
+      description: "Explore a curated collection of original paintings or commission a custom piece to bring your vision to life. We specialize in fine art that elevates interiors and tells a unique story."
     }
   ]
 
