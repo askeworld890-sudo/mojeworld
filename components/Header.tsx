@@ -38,8 +38,10 @@ export default function Header() {
     <header className={isScrolled ? 'scrolled' : ''}>
       <a href="/" className="logo">
   <img src="/images/image20.webp" alt="moj._.world logo" className="logo-img" />
-  Aksemoj
+  <span className="logo-text">Aksemoj</span>
+  <span className="tagline">REFLECTING THE SOUL</span>
 </a>
+
 
       <div className="menu-toggle" onClick={handleMobileMenuToggle}>
         <i className={isMobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>

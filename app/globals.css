@@ -414,6 +414,7 @@ header.scrolled {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .logo {
+  position: relative;             /* NEW: for absolute tagline */
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -423,13 +424,29 @@ header.scrolled {
 }
 
 .logo-img {
-  height: 50px;          /* circle ka size */
+  height: 50px;
   width: 50px;
-  border-radius: 50%;    /* image ko circle banata hai */
-  object-fit: cover;     /* image ko circle ke andar fit karta hai */
+  border-radius: 50%;
+  object-fit: cover;
   margin-right: 10px;
   display: block;
-  border: 2px solid var(--light); /* optional: circle ka border */
+  border: 2px solid var(--light);
+}
+.logo-text {
+  line-height: 1;                 /* compact */
+  display: inline-block;
+}
+
+/* NEW: tagline positioned under the brand without changing header size */
+.tagline {
+  position: absolute;
+  left: calc(50px + 10px);        /* logo-img width + margin-right */
+  top: 48px;                      /* tweak as needed to sit under "Aksemoj" */
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  opacity: 0.8;
+  white-space: nowrap;            /* prevent wrapping */
+  pointer-events: none;           /* clicks pass-through */
 }
 
 
@@ -1565,6 +1582,7 @@ footer {
       url("/images/hero-source.webp") type("image/webp") 1x
     );
   }
+  .tagline { top: 46px; font-size: 0.66rem; letter-spacing: 0.1em; }
     .nav-links {
         position: fixed;
         top: 0;
