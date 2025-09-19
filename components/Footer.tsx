@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer>
       <a href="#" className="footer-logo">
-        Moj<span>E</span>World
+        Aks<span>E</span>Moj
       </a>
       <div className="footer-links">
         <a href="#home" onClick={handleNavClick}>Home</a>
