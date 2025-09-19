@@ -73,7 +73,7 @@ export default function Contact() {
               <div className="contact-text">
                 <h4>Email</h4>
                 {/* display a correct mailto */}
-                <p><a href="mailto:moezaanam00@gmail.com">moezaanam00@gmail.com</a></p>
+                <p><a href="mailto:aksemoj@gmail.com">aksemoj@gmail.com</a></p>
               </div>
             </div>
 
@@ -81,7 +81,7 @@ export default function Contact() {
               <div className="contact-icon"><i className="fas fa-clock"></i></div>
               <div className="contact-text">
                 <h4>Hours</h4>
-                <p>Monday - Friday: 9am - 6pm<br/>Saturday: 10am - 4pm</p>
+                <p>Monday - Saturday: 9am - 6pm</p>
               </div>
             </div>
           </div>

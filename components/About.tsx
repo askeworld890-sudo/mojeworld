@@ -3,7 +3,7 @@
 export default function About() {
   return (
     <section className="section" id="about">
-      <h2 className="section-title">About moj._.world</h2>
+      <h2 className="section-title">About Aksemoj</h2>
       <div className="about-content">
         <div className="about-text">
           <h3 style={{ color: 'var(--dark2)' }}>Redefining Art & Creativity Since 2010</h3>

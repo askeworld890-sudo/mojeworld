@@ -38,7 +38,7 @@ export default function Header() {
     <header className={isScrolled ? 'scrolled' : ''}>
       <a href="/" className="logo">
   <img src="/images/image20.webp" alt="moj._.world logo" className="logo-img" />
-  Aks_E_Moj
+  Aksemoj
 </a>
 
       <div className="menu-toggle" onClick={handleMobileMenuToggle}>
